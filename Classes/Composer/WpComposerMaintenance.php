@@ -1,5 +1,5 @@
 <?php 
-namespace OGrosko\Composer;
+namespace PepijnNichting\Composer;
 
 use Composer\Script\Event;
 

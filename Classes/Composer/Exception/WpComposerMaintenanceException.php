@@ -1,4 +1,4 @@
 <?php
-namespace OGrosko\Composer\Exception;
+namespace PepijnNichting\Composer\Exception;
 
 class WpComposerMaintenanceException extends \Exception {}

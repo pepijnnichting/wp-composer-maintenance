@@ -6,7 +6,7 @@ wp-composer-maintenance are collection of simple scripts for composer pre-update
 ## Installation using [Composer](http://getcomposer.org/)
 
 ```bash
-$ composer require ogrosko/wp-composer-maintenance
+$ composer require pepijnnichting/wp-composer-maintenance
 ```
 
 ## Usage
@@ -15,10 +15,10 @@ Add following config in `scripts` section of your `composer.json` file
 ```json
 "scripts": {
 	"pre-update-cmd": [
-		"OGrosko\\Composer\\WpComposerMaintenance::maintenance_enable"
+		"PepijnNichting\\Composer\\WpComposerMaintenance::maintenance_enable"
 	],
 	"post-update-cmd": [
-		"OGrosko\\Composer\\WpComposerMaintenance::maintenance_disable"
+		"PepijnNichting\\Composer\\WpComposerMaintenance::maintenance_disable"
 	]
 },
 ```
