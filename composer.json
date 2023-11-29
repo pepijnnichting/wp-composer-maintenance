@@ -1,23 +1,20 @@
 {
-	"name"             : "ogrosko/wp-composer-maintenance",
+	"name"             : "pepijnnichting/wp-composer-maintenance",
 	"description"      : "Composer pre/post scripts for enabling/disabling wordpress maintenance mode",
 	"keywords"         : ["maintenance", "wordpress", "composer"],
 	"type"             : "composer-scripts",
 	"license"          : "GPL-3.0",
 	"minimum-stability": "dev",
-	"version"		   : "0.0.2",
+	"version"		   : "0.1.1",
 	"authors"          : [
 		{
-			"name" : "Ondrej Grosko",
-			"email": "ogrosko@gmail.com"
+			"name" : "Pepijn Nichting fork from(Ondrej Grosko)",
+			"email": "pepijn.nichting@gmail.com"
 		}
 	],
 	"autoload"         : {
 		"psr-4": {
 			"OGrosko\\": "Classes/"
 		}
-	},
-	"require"          : {
-		"composer-plugin-api": "^1.0"
 	}
 }
